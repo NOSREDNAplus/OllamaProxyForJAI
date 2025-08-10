@@ -12,7 +12,7 @@ Configuration Name: `Custom Proxy` (Can be anything)
 
 Model name: `<insert model name>` (Has to be a model you've pulled using Ollama, find models on the ollama website and pull using `ollama pull <model name>`)
 
-Proxy URL: `http://localhost:8000/chat/completions` (Or what ever port it says the Flask server is running on.)
+Proxy URL: `http://localhost:8000/v1/chat/completions` (Or what ever port it says the Flask server is running on.)
 
 API Key: `custom-key`
 
