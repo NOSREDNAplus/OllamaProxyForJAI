@@ -79,6 +79,6 @@ async def postchatCompletions(request:Request):
                         }
                     ]
                 }
-            return Response(formatedOutput)
+            return Response(formatedOutput, media_type='application/json')
     else:
         raise RuntimeError('Invalid auth token...')
